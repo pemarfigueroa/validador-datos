@@ -60,7 +60,7 @@ def armar_linea(rut, nombre, apellido_pat, apellido_mat, saldo, fecha):
 if __name__ == "__main__":
     cant_reg = int(input("¿Cuantos registros desea en el archivo: "))
     gender = ["M", "F"]
-    with open("../datos/cotizantes.csv", "w", encoding="latin-1", newline="") as archivo:
+    with open("../datos/cotizantes.txt", "w", encoding="latin-1", newline="") as archivo:
         for i in range(cant_reg):
             genero = random.choice(gender)
             rut = random_rut()
