@@ -1,6 +1,6 @@
 from rut import calcula_dv
 import random
-import os
+
 
 
 def random_rut():

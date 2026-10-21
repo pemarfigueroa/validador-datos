@@ -42,8 +42,10 @@ Cada registro tiene **126 caracteres**:
 
 Ambas aceptan el RUT como texto o como número, y normalizan el DV (mayúsculas y espacios).
 
+Ejemplo desde la carpeta `src/`:
+
 ```python
-from src.rut import calcula_dv, valida_DV
+from rut import calcula_dv, valida_DV
 
 calcula_dv("12345678")       # '5'
 valida_DV(12345678, "5")     # True
